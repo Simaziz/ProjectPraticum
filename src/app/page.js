@@ -19,9 +19,10 @@ export default function Home() {
                 <p className=" ml-[7rem] items-center flex">English</p>
             </div>
             <div> <Navbar/></div>
-            <div className="flex gap-[2rem]">
-              <Sidebar/>
-            <Slide/>
+            <div className="flex ">
+              <div className="flex me-8"><Sidebar/></div>
+              <div className=" flex me-8"><Slide/></div>
+             
             </div>
             <Stock/>
             <Categories/>

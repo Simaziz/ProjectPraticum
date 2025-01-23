@@ -1,10 +1,10 @@
 export default function Navbar(){
     return(
-        <header>
+        <header className="w-screen">
 
 
 
-    <div className=" bg-gray-100">
+    <div className=" bg-gray-100 ">
       {/* Navigation Bar */}
       <nav className="bg-white shadow-md">
         <div className="max-w-6xl mx-auto px-4">
@@ -14,9 +14,9 @@ export default function Navbar(){
 
             {/* Navigation Links */}
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">Home</a>
-              <a href="#" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">Contact</a>
-              <a href="#" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">About</a>
+              <a href="/" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">Home</a>
+              <a href="/contact" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">Contact</a>
+              <a href="/aboutUs" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">About Us</a>
               <a href="/signup" className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 p-[10px] rounded-lg ">Sign Up</a>
             </div>
 

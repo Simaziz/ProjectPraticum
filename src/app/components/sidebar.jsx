@@ -14,8 +14,9 @@ const Sidebar = () => {
     "Health & Beauty",
   ];
 
+
   return (
-    <div className="w-64 bg-white shadow-md   p-2">
+    <div className="w-[250px] bg-white shadow-md   p-2">
       <h2 className="text-xl font-bold text-gray-800 mb-4">Categories</h2>
       <ul className="space-y-[2px]">
         {categories.map((category, index) => (

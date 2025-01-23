@@ -1,8 +1,14 @@
 import React from 'react';
-
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 export default function LoginPage() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+   <header>
+      <div className='fixed'>
+                    <Navbar/>
+      </div>
+    
+     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         {/* Heading */}
         <h1 className="text-2xl font-bold text-gray-800 mb-6">Log in to Exclusive</h1>
@@ -49,5 +55,7 @@ export default function LoginPage() {
         </p>
       </div>
     </div>
+    <Footer/>
+   </header>
   );
 }
