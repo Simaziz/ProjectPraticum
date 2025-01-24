@@ -69,7 +69,7 @@ export default function AboutUsPage() {
               <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gray-200 flex items-center justify-center">
                 <span className="text-4xl">👤</span>
               </div>
-              <h2 className="text-xl font-bold text-gray-800 mb-2">Sreng Leabheng</h2>
+              <h2 className="text-xl font-bold text-gray-800 mb-2">Sreng Leapheng</h2>
               <p className="text-gray-600">Managing Director</p>
             </div>
 
