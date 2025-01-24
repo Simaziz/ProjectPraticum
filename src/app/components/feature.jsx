@@ -12,8 +12,8 @@ export default function FeaturedSection() {
       {/* Featured Grid */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
         {/* PlayStation 5 */}
-        <div className="bg-black rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <div className="w-full h-48 sm:h-64 overflow-hidden">
+        <div className="bg-black  rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="w-full h-[500px]  overflow-hidden">
             <img
               src="/images/ps5.png" // Replace with your image path
               alt="PlayStation 5"
@@ -33,7 +33,7 @@ export default function FeaturedSection() {
 
         {/* Women’s Collections */}
         <div className="bg-black rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <div className="w-full h-48 sm:h-64 overflow-hidden">
+          <div className="w-full h-48 h-[500px]  overflow-hidden">
             <img
               src="/images/women.png" // Replace with your image path
               alt="Women’s Collections"

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Control from "../../../public/images/controller.png";
 import Key from "../../../public/images/keyboard.png";
+import Mac from "../../../public/images/macbook.png"
+import Rtx from "../../../public/images/rtx4090.jpg"
 
 export default function FlashSales() {
   return (
@@ -63,7 +65,7 @@ export default function FlashSales() {
         <div className="p-4 bg-gray-100 rounded-lg shadow-md">
           <div className="relative">
             <Image
-              src={Control}
+              src={Mac}
               alt="Gamepad"
               className="w-full h-40 object-contain"
             />
@@ -72,10 +74,10 @@ export default function FlashSales() {
             </span>
           </div>
           <h3 className="mt-4 text-lg font-semibold text-gray-800">
-            HAVIT HV-G92 Gamepad
+            Macbook Pro M3
           </h3>
           <p className="text-red-500 font-bold">
-            $120 <span className="text-sm text-gray-500 line-through">$160</span>
+            $1200 <span className="text-sm text-gray-500 line-through">$1900</span>
           </p>
           <div className="flex items-center mt-2">
             <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
@@ -99,7 +101,7 @@ export default function FlashSales() {
             RGB Mechanical Keyboard
           </h3>
           <p className="text-red-500 font-bold">
-            $120 <span className="text-sm text-gray-500 line-through">$160</span>
+            $60 <span className="text-sm text-gray-500 line-through">$80</span>
           </p>
           <div className="flex items-center mt-2">
             <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>
@@ -111,7 +113,7 @@ export default function FlashSales() {
         <div className="p-4 bg-gray-100 rounded-lg shadow-md">
           <div className="relative">
             <Image
-              src={Control}
+              src={Rtx}
               alt="Gamepad"
               className="w-full h-40 object-contain"
             />
@@ -120,10 +122,10 @@ export default function FlashSales() {
             </span>
           </div>
           <h3 className="mt-4 text-lg font-semibold text-gray-800">
-            HAVIT HV-G92 Gamepad
+            RTX 4090
           </h3>
           <p className="text-red-500 font-bold">
-            $120 <span className="text-sm text-gray-500 line-through">$160</span>
+            $2000 <span className="text-sm text-gray-500 line-through">$3060</span>
           </p>
           <div className="flex items-center mt-2">
             <div className="text-yellow-400">⭐⭐⭐⭐⭐</div>

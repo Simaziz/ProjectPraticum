@@ -4,23 +4,23 @@ export default function OurProducts() {
   const products = [
     {
       id: 1,
-      name: 'Breed Dry Dog Food',
-      price: '$100',
+      name: 'Canon Sony',
+      price: '$150',
       rating: '★★★★',
       reviews: '(35)',
       image: '/images/camera.png', // Replace with your image path
     },
     {
       id: 2,
-      name: 'CANON EOS DSLR Camera',
-      price: '$360',
+      name: 'Asus ROG',
+      price: '$3600',
       rating: '★★★★',
       reviews: '(95)',
       image: '/images/asus.png', // Replace with your image path
     },
     {
       id: 3,
-      name: 'ASUS FHD Gaming Laptop',
+      name: 'PS5 pro',
       price: '$700',
       rating: '★★★★',
       reviews: '(325)',
@@ -28,11 +28,11 @@ export default function OurProducts() {
     },
     {
       id: 4,
-      name: 'Curology Product Set',
-      price: '$500',
+      name: 'Macbook pro M3',
+      price: '$1400',
       rating: '★★★★',
       reviews: '(145)',
-      image: '/images/asus.png', // Replace with your image path
+      image: '/images/macbook.png', // Replace with your image path
     },
     // Add more products as needed
   ];

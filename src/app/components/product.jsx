@@ -4,7 +4,7 @@ export default function BestSellingProducts() {
   const [products, setProducts] = useState([
     {
       id: 1,
-      name: 'The North Coat',
+      name: 'Sony',
       originalPrice: '$360',
       discountedPrice: '$260',
       isLoved: false,
@@ -12,25 +12,25 @@ export default function BestSellingProducts() {
     },
     {
       id: 2,
-      name: 'The North Coat',
-      originalPrice: '$360',
-      discountedPrice: '$260',
+      name: 'Asus ROG',
+      originalPrice: '$3600',
+      discountedPrice: '$2000',
       isLoved: false,
       img: '/images/asus.png', // Path relative to the public folder
     },
     {
       id: 3,
-      name: 'The North Coat',
-      originalPrice: '$360',
-      discountedPrice: '$260',
+      name: 'Controller ',
+      originalPrice: '$120',
+      discountedPrice: '$100',
       isLoved: false,
       img: '/images/controller.png', // Path relative to the public folder
     },
     {
       id: 4,
-      name: 'The North Coat',
-      originalPrice: '$360',
-      discountedPrice: '$260',
+      name: 'PS5',
+      originalPrice: '$600',
+      discountedPrice: '$560',
       isLoved: false,
       img: '/images/ps5.png', // Path relative to the public folder
     },
@@ -59,14 +59,14 @@ export default function BestSellingProducts() {
       </div>
 
       {/* Product Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6  ">
         {products.map((product) => (
           <div
             key={product.id}
             className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 relative"
           >
             {/* Product Image */}
-            <div className="h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
+            <div className="h-50 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
                 src={product.img} // Use the imported image
                 alt={product.name}
@@ -95,10 +95,10 @@ export default function BestSellingProducts() {
 
             {/* Action Buttons */}
             <div className="flex space-x-2">
-              <button className="flex-1 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300">
+              <button className="flex-1 px-2 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300">
                 View
               </button>
-              <button className="flex-1 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition duration-300">
+              <button className="flex-1 px-2 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition duration-300">
                 Add to Cart
               </button>
             </div>
