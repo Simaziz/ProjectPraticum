@@ -9,6 +9,7 @@ const Sidebar = () => {
     "Camera",
     "Headphone",
     "Gaming",
+    
   ];
 
   return (

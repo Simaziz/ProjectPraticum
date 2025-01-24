@@ -11,22 +11,22 @@ export default function MyAccountPage() {
       </div>
 
       {/* Main Content */}
-      <div className="min-h-screen bg-gray-100 pt-20 pb-8 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen  bg-gray-100 pt-20 pb-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Breadcrumb */}
-          <div className="text-sm text-gray-600 mb-6">
+          {/* <div className="text-sm text-gray-600 mb-6">
             <span>Home</span> / <span className="font-semibold">My Account</span>
-          </div>
-
-          {/* Welcome Message */}
+          </div> */}
+{/* 
+          Welcome Message
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
             Welcome! Md Rime!
-          </h1>
+          </h1> */}
 
           {/* Main Layout */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* Sidebar */}
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
+            {/* <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">
                 Manage My Account
               </h2>
@@ -82,13 +82,13 @@ export default function MyAccountPage() {
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mt-6 mb-4">
                 My Wishlist
               </h2>
-            </div>
+            </div> */}
 
             {/* Main Content */}
             <div className="md:col-span-3 bg-white p-4 sm:p-6 rounded-lg shadow-md">
               {/* My Profile Section */}
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-6">
-                Edit Your Profile
+                Contact
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 <div>
@@ -135,10 +135,10 @@ export default function MyAccountPage() {
 
               {/* Password Changes Section */}
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mt-8 mb-6">
-                Password Changes
+                Comments
               </h2>
               <div className="space-y-4 sm:space-y-6">
-                <div>
+                {/* <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     Current Password
                   </label>
@@ -147,8 +147,8 @@ export default function MyAccountPage() {
                     placeholder="Enter your current password"
                     className="w-full px-3 sm:px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     New Password
                   </label>
@@ -157,14 +157,14 @@ export default function MyAccountPage() {
                     placeholder="Enter your new password"
                     className="w-full px-3 sm:px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
-                </div>
+                </div> */}
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                  {/* <label className="block text-sm font-medium text-gray-700 mb-1">
                     Confirm New Password
-                  </label>
+                  </label> */}
                   <input
                     type="password"
-                    placeholder="Confirm your new password"
+                    placeholder="Feedback"
                     className="w-full px-3 sm:px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>

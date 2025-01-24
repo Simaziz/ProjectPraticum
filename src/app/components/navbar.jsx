@@ -9,10 +9,10 @@ export default function Navbar() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center py-4">
               {/* Logo or Brand Name */}
-              <div className="text-xl font-bold text-gray-800">Exclusive</div>
+              <div className="text-xl font-bold text-gray-800 ">HeavenOfAccessory</div>
 
               {/* Navigation Links (Hidden on Mobile) */}
-              <div className="hidden md:flex space-x-4 lg:space-x-6">
+              <div className="hidden md:flex space-x-4 lg:space-x-2">
                 <a
                   href="/"
                   className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-lg transition duration-300"
@@ -33,9 +33,15 @@ export default function Navbar() {
                 </a>
                 <a
                   href="/signup"
-                  className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-lg transition duration-300"
+                  className="text-white bg-green-400  hover:text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-lg transition duration-300"
                 >
                   Sign Up
+                </a>
+                <a
+                  href="/login"
+                  className="text-white bg-blue-400 hover:text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-lg transition duration-300"
+                >
+                  Log In
                 </a>
               </div>
 
@@ -98,6 +104,12 @@ export default function Navbar() {
                   className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-lg transition duration-300"
                 >
                   Sign Up
+                </a>
+                <a
+                  href="/login"
+                  className="text-gray-700 hover:text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-lg transition duration-300"
+                >
+                  LogIn
                 </a>
               </div>
               {/* Mobile Search Bar */}
