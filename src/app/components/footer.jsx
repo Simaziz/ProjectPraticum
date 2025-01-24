@@ -2,16 +2,16 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className="bg-gray-900 text-white pt-5 pb-2">
-      <div className="max-w-6xl mx-auto px-9">
+    <div className="bg-gray-900 text-white pt-8 pb-4 sm:pt-12 sm:pb-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Footer Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8">
           {/* Subscribe Section */}
-          <div className="">
-            <h2 className="text-2xl font-bold text-white">Exclusive</h2>
-            <h3 className="text-lg font-semibold text-white">Subscribe</h3>
-            <p className="text-gray-400">Get 10% off your first order</p>
-            <div className="flex mt-[7rem]">
+          <div className="sm:col-span-2 md:col-span-2 lg:col-span-1">
+            <h2 className="text-2xl font-bold text-white mb-4">Exclusive</h2>
+            <h3 className="text-lg font-semibold text-white mb-2">Subscribe</h3>
+            <p className="text-gray-400 mb-4">Get 10% off your first order</p>
+            <div className="flex mt-6 sm:mt-8">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
 
           {/* Support Section */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <h3 className="text-lg font-semibold text-white">Support</h3>
             <p className="text-gray-400">
               I'll enjoy sarami, Dhaka, DH 1515, Bangladesh.
@@ -34,9 +34,9 @@ export default function Footer() {
           </div>
 
           {/* Account Section */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <h3 className="text-lg font-semibold text-white">Account</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2 sm:space-y-3">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition duration-300 no-underline">
                   My Account
@@ -61,9 +61,9 @@ export default function Footer() {
           </div>
 
           {/* Quick Links Section */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <h3 className="text-lg font-semibold text-white">Quick Link</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2 sm:space-y-3">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition duration-300 no-underline">
                   Privacy Policy
@@ -87,8 +87,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Download App Section */}
-          {/* <div className="space-y-6">
+          {/* Download App Section (Optional) */}
+          {/* <div className="space-y-4 sm:space-y-6">
             <h3 className="text-lg font-semibold text-white">Download App</h3>
             <p className="text-gray-400">Save $3 with App New User Only</p>
             <div className="flex space-x-3">
@@ -107,7 +107,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center">
+        <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center">
           <p className="text-gray-400">
             &copy; {new Date().getFullYear()} Exclusive. All rights reserved.
           </p>

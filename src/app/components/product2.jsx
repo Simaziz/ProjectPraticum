@@ -34,62 +34,31 @@ export default function OurProducts() {
       reviews: '(145)',
       image: '/images/asus.png', // Replace with your image path
     },
-    // {
-    //   id: 5,
-    //   name: 'Kids Electric Car',
-    //   price: '$960',
-    //   rating: '★★★★',
-    //   reviews: '(65)',
-    //   image: '/images/electric-car.jpg', // Replace with your image path
-    // },
-    // {
-    //   id: 6,
-    //   name: 'Jr. Zoom Soccer Cleats',
-    //   price: '$160',
-    //   rating: '★★★★',
-    //   reviews: '(35)',
-    //   image: '/images/soccer-cleats.jpg', // Replace with your image path
-    // },
-    // {
-    //   id: 7,
-    //   name: 'GPII Shooter USB Gamepod',
-    //   price: '$660',
-    //   rating: '★★★★',
-    //   reviews: '(55)',
-    //   image: '/images/gamepod.jpg', // Replace with your image path
-    // },
-    // {
-    //   id: 8,
-    //   name: 'Quilted Satin Jacket',
-    //   price: '$660',
-    //   rating: '★★★★',
-    //   reviews: '(55)',
-    //   image: '/images/jacket.jpg', // Replace with your image path
-    // },
+    // Add more products as needed
   ];
 
   return (
-    <div className="p-8 bg-gray-100">
+    <div className="p-4 sm:p-8 bg-gray-100">
       {/* Heading and View All Button */}
-      <div className="max-w-6xl mx-auto flex justify-between items-center mb-8">
-        <div>
-          <h2 className="text-3xl font-bold text-gray-800">Our Products</h2>
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center mb-6 sm:mb-8">
+        <div className="text-center sm:text-left mb-4 sm:mb-0">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Our Products</h2>
           <p className="text-gray-600">Explore Our Products</p>
         </div>
-        <button className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300">
+        <button className="px-4 sm:px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300">
           View All Products
         </button>
       </div>
 
       {/* Product Grid */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
         {products.map((product) => (
           <div
             key={product.id}
             className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col"
           >
             {/* Product Image */}
-            <div className="h-48 rounded-lg mb-4 overflow-hidden">
+            <div className="h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
                 src={product.image} // Use the image path
                 alt={product.name}

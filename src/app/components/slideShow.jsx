@@ -21,8 +21,8 @@ export default function slide() {
   }, []);
 
   return (
-    <header className="w-[900px]">
-      <div>
+    <header className="w-full">
+      <div className="container-fluid px-0">
         <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             {/* First Slide */}

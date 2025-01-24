@@ -20,21 +20,23 @@ export default function ServicesSection() {
   ];
 
   return (
-    <div className="p-8 bg-gray-100">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div className="p-4 sm:p-8 bg-gray-100">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-center"
+            className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-center"
           >
             {/* Icon */}
-            <div className="text-4xl mb-4">{service.icon}</div>
+            <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">{service.icon}</div>
 
             {/* Title */}
-            <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">
+              {service.title}
+            </h3>
 
             {/* Description */}
-            <p className="text-gray-600">{service.description}</p>
+            <p className="text-sm sm:text-base text-gray-600">{service.description}</p>
           </div>
         ))}
       </div>
