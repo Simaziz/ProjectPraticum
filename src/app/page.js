@@ -16,12 +16,12 @@ export default function Home() {
   return (
     <header>
       {/* Top Banner */}
-      <div className="text-white bg-black flex justify-center items-center p-2 text-sm sm:text-base">
+      {/* <div className="text-white bg-black flex justify-center items-center p-2 text-sm sm:text-base">
         <p className="text-center">
           Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! Shop Now
         </p>
         <p className="ml-4 sm:ml-8">English</p>
-      </div>
+      </div> */}
 
       {/* Navbar */}
       <div className="sticky top-0 z-50">

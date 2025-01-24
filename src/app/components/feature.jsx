@@ -33,17 +33,17 @@ export default function FeaturedSection() {
 
         {/* Women’s Collections */}
         <div className="bg-black rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <div className="w-full h-48 h-[500px]  overflow-hidden">
+          <div className="w-full h-[500px]  overflow-hidden">
             <img
-              src="/images/women.png" // Replace with your image path
+              src="/images/pc.webp" // Replace with your image path
               alt="Women’s Collections"
               className="w-full h-full object-cover p-4"
             />
           </div>
           <div className="p-4 sm:p-6">
-            <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Women’s Collections</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">The king of PC Gamming</h3>
             <p className="text-white mb-4 text-sm sm:text-base">
-              Featured women collections that give you another vibe.
+              This pc is available play game in the world.
             </p>
             <a className="text-white text-base sm:text-lg font-bold hover:underline">
               Shop Now
